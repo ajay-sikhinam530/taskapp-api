@@ -15,6 +15,11 @@ public class TaskController {
 
     private final TaskService taskService;
 
+    @GetMapping("/version")
+    public String getVersion() {
+        return "1.0.0";
+    }
+
     @GetMapping
     public List<Task> getAllTasks() {
         return taskService.getAllTasks();
