@@ -41,5 +41,4 @@ target/
 .vscode/
 node_modules/
 .env
-application.yml
 
